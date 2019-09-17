@@ -7,7 +7,7 @@ def get_user_input
   gets.chomp
 end
 
-def guess_num
+def run_guessing_game
   n = num
   u_input = get_user_input
 
@@ -18,8 +18,4 @@ def guess_num
   else
     puts "Sorry! The computer guessed #{n}."
   end
-end
-
-def run_guessing_game
-  guess_num
 end
